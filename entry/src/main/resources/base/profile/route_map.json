@@ -1,0 +1,37 @@
+{
+  "routerMap": [
+    {
+      "name": "categoryPage",
+      "pageSourceFile": "src/main/ets/pages/CategoryPage.ets",
+      "buildFunction": "CategoryPageBuilder",
+      "data": {
+        "description": "this is category page"
+      }
+    },
+    {
+      "name": "restaurantPage",
+      "pageSourceFile": "src/main/ets/pages/RestaurantPage.ets",
+      "buildFunction": "RestaurantPageBuilder",
+      "data": {
+        "description": "this is Restaurant page"
+      }
+    },
+    {
+      "name": "restaurantDetailsPage",
+      "pageSourceFile": "src/main/ets/pages/RestaurantDetailsPage.ets",
+      "buildFunction": "RestaurantDetailsPageBuilder",
+      "data": {
+        "description": "this is Restaurant Details page"
+      }
+    }
+  ,
+    {
+      "name": "favoritesPage",
+      "pageSourceFile": "src/main/ets/pages/FavoritesPage.ets",
+      "buildFunction": "FavoritesPageBuilder",
+      "data": {
+        "description": "this is favorites page"
+      }
+    }
+  ]
+}
